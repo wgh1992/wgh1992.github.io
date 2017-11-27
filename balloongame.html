@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus@">
+    <title>balloon</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        .balloon {
+            position: absolute;
+            left: 0;
+            top: 0 ;
+            width: 160px;
+            height: 160px;
+            background-color: #fafaf9;
+            border-radius:160px 160px 64px 160px;
+            transform:rotate(45deg);
+            box-shadow:-8px -8px 80px -9px #665e60 inset;
+        }
+        .balloon:after{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0px;
+            height: 0px;
+            content:"";
+
+
+            border: 8px solid transparent;
+            border-right-color: #665e60 ;
+            border-radius: 50%;
+            transform:rotate(45deg);
+        }
+        </style>
+
+</head>
+<body>
+
+<form>
+<input type="number" id="answer" >
+</form>
+<br>
+<script>
+    var num =10;
+    var wh= window.innerHeight;
+    var ww= window.innerWidth;
+    var bz= 160;
+    var timer;
+    var allballoon =  new Array(0);
+    document.getElementById("answer").value=0;
+    init(num);
+    move();
+
+    timer=setInterval(move,60); //per 60ms do move
+
+    document.addEventListener("click",function (ee) {
+            //console.log(ee);
+            //document.writeln("Hit me");
+            if (ee.target.className.toLowerCase() == "balloon") {
+                var tag= ee.target;
+                boom.call(tag);
+            }
+        }
+        ,false);
+    function boom()
+    {
+        var that = this;
+        console.log(that);
+        this.timer= setInterval(function () {
+            that.speed1++;
+            that.style.width = that.offsetWidth - 10 + "px";
+            that.style.height = that.offsetHeight -10 + "px";
+        },3000/60);
+    }
+
+    function init(num) {
+        var fragment =document.createDocumentFragment();
+        for (var i=0;i<num ;i++)
+        {
+            var randomx = (Math.random()*(ww-bz))>>0;
+            var oBalloon = document.createElement('div');
+            oBalloon.className= "balloon";
+            fragment.appendChild(oBalloon);
+            document.body.appendChild(oBalloon); // embeding to body;
+            oBalloon.style.top = wh  + "px";
+            oBalloon.style.left= randomx + "px";
+            oBalloon.speed1= ((Math.random()*(wh-bz))>>0)/50+1;
+            allballoon.push(oBalloon);
+        }
+        document.body.appendChild(fragment); // embeding to body;
+
+    }
+
+    function move(){
+        for(var i=0,item;item=allballoon[i++];)
+        {
+            item.style.top = item.offsetTop - item.speed1 + "px";
+            if(item.offsetTop<-160)
+            {
+                item.style.top=wh  + "px";
+            }
+
+            if(item.offsetWidth<=30)
+            {
+                item.parentNode.removeChild(item);
+                init(1);
+                allballoon.splice(allballoon.lastIndexOf(item),1);
+                document.getElementById("answer").value++;
+            }
+        }
+    }
+
+
+</script>
+<script type="text/javascript">
+var mystr="hello";
+document.write(mystr+"<br>");//输出hello后，输出一个换行符
+
+</script>
+
+</body>
+</html>
