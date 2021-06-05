@@ -3,7 +3,7 @@
 *A simple Jekyll + GitHub Pages powered resume template.*
 
 
-![img]<img src="images/headphoto.jpg" width="100" height="100">
+<img src="images/headphoto.jpg" width="100" height="100">
 
 ## Docs
 
