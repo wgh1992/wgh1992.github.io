@@ -103,15 +103,15 @@
       <!-- begin Publications -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Publications</h2>
         </header>
 
-        {% for project in site.data.publications %}
+        {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ project.url }}" itemprop="url">{{ publication.project }}</a>{% else %}{{ publication.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publication.role }}  &bull; {{ publication.duration }}</h4>
+          <p class="resume-item-copy">{{ publication.description }}</p>
         </div>
         {% endfor %}
 
