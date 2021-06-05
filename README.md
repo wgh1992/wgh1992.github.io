@@ -2,7 +2,8 @@
 
 *A simple Jekyll + GitHub Pages powered resume template.*
 
-![img](images/headphoto.jpg = 100x20)
+
+![img]<img src="images/headphoto.jpg" width="100" height="100">
 
 ## Docs
 
