@@ -86,7 +86,7 @@
           <h2>Publications</h2>
         </header>
 
-        {% for publication in site.data.publications %}
+        {% for publication in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ project.url }}" itemprop="url">{{ publication.project }}</a>{% else %}{{ publication.project }}{% endif %}</h3>
@@ -157,25 +157,25 @@
       <!-- end Associations -->
       {% endif %}
 
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
+<!--      {% if site.resume_section_interests %}-->
+<!--      &lt;!&ndash; begin Interests &ndash;&gt;-->
+<!--      <section class="content-section">-->
 
-        <header class="section-header">
-          <h2>Outside Interests</h2>
-        </header>
+<!--        <header class="section-header">-->
+<!--          <h2>Outside Interests</h2>-->
+<!--        </header>-->
 
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+<!--        <div class="resume-item">-->
+<!--          <ul class="resume-item-list">-->
+<!--            {% for interest in site.data.interests %}-->
+<!--            <li>{{ interest.description }}</li>-->
+<!--            {% endfor %}-->
+<!--          </ul>-->
+<!--        </div>-->
 
-      </section>
-      <!-- end Interests -->
-      {% endif %}
+<!--      </section>-->
+<!--      &lt;!&ndash; end Interests &ndash;&gt;-->
+<!--      {% endif %}-->
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
@@ -197,25 +197,25 @@
       <!-- end Links -->
       {% endif %}
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
-      <section class="content-section">
+<!--      {% if site.resume_section_experience %}-->
+<!--      &lt;!&ndash; begin Experience &ndash;&gt;-->
+<!--      <section class="content-section">-->
 
-        <header class="section-header">
-          <h2>Experience</h2>
-        </header>
+<!--        <header class="section-header">-->
+<!--          <h2>Experience</h2>-->
+<!--        </header>-->
 
-        {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
+<!--        {% for job in site.data.experience %}-->
+<!--        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">-->
+<!--          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>-->
+<!--          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>-->
+<!--          <p class="resume-item-copy">{{ job.summary }}</p>-->
+<!--        </div>&lt;!&ndash; end of resume-item &ndash;&gt;-->
+<!--        {% endfor %}-->
 
-      </section>
-      <!-- end Experience -->
-      {% endif %}
+<!--      </section>-->
+<!--      &lt;!&ndash; end Experience &ndash;&gt;-->
+<!--      {% endif %}-->
 
 
       {% if site.resume_print_social_links %}
