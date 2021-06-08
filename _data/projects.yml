@@ -3,16 +3,16 @@
 
 - project: Nerual Network  
   duration: 2021；
-  url: "https://arxiv.org/pdf/2002.11382.pdf"
-  description: Wang, Guanhua, Runqi Guo, Yuko Sakurai, Ali Babar, and Mingyu Guo. "Mechanism Design for Public Projects via Neural Networks."  AAMAS-2021 (Core A*)
+  #url: "https://arxiv.org/pdf/2002.11382.pdf"
+  description: <a href="https://arxiv.org/pdf/2002.11382.pdf">Wang, Guanhua, Runqi Guo, Yuko Sakurai, Ali Babar, and Mingyu Guo. "Mechanism Design for Public Projects via Neural Networks."  AAMAS-2021 (Core A*)</a>
 
 - project: Nerual Network  
   duration: 2019；
-  url: "https://arxiv.org/pdf/1907.01755.pdf"
-  description: Le, Ba-Dung, Guanhua Wang, Mehwish Nasim, and Muhammad Ali Babar. "Gathering cyber threat intelligence from Twitter using novelty classification." In 2019 International Conference on Cyberworlds (CW), pp. 316-323. IEEE, 2019 (Core B)
+  #url: "https://arxiv.org/pdf/1907.01755.pdf"
+  description: <a href="https://arxiv.org/pdf/1907.01755.pdf">Le, Ba-Dung, Guanhua Wang, Mehwish Nasim, and Muhammad Ali Babar. "Gathering cyber threat intelligence from Twitter using novelty classification." In 2019 International Conference on Cyberworlds (CW), pp. 316-323. IEEE, 2019 (Core B)</a>
 
 - project: Evolution Algorithm  
   duration: 2016；
-  url: "https://www.sciencedirect.com/science/article/abs/pii/S0305054816301435"
-  description: Yan, P., Wang, G., Che, A. and Li, Y., . Hybrid discrete differential evolution algorithm for biobjective cyclic hoist scheduling with reentrance. Computers & Operations Research, 76, pp.155-166.
+  #url: "https://www.sciencedirect.com/science/article/abs/pii/S0305054816301435"
+  description: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054816301435">Yan, P., Wang, G., Che, A. and Li, Y., . Hybrid discrete differential evolution algorithm for biobjective cyclic hoist scheduling with reentrance. Computers & Operations Research, 76, pp.155-166.</a>
 
