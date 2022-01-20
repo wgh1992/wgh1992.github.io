@@ -3,8 +3,8 @@
 
 - project: Nerual Network  
   duration: 2021；
-  #url: "https://arxiv.org/pdf/2002.11382.pdf"
-  description: <a href="https://arxiv.org/pdf/2002.11382.pdf">Wang, Guanhua, Runqi Guo, Yuko Sakurai, Ali Babar, and Mingyu Guo. "Mechanism Design for Public Projects via Neural Networks."  AAMAS-2021 (Core A*)</a>
+  #url: "https://dl.acm.org/doi/abs/10.5555/3463952.3464111"
+  description: <a href="https://dl.acm.org/doi/abs/10.5555/3463952.3464111">Wang, Guanhua, Runqi Guo, Yuko Sakurai, Ali Babar, and Mingyu Guo. "Mechanism Design for Public Projects via Neural Networks."  AAMAS-2021 (Core A*)</a>
 
 
 - project: Evolution Algorithm  
