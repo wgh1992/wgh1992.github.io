@@ -6,6 +6,31 @@
   #url: "https://arxiv.org/pdf/2002.11382.pdf"
   description: <a href="https://arxiv.org/pdf/2002.11382.pdf">Wang, Guanhua, Runqi Guo, Yuko Sakurai, Ali Babar, and Mingyu Guo. "Mechanism Design for Public Projects via Neural Networks."  AAMAS-2021 (Core A*)</a>
 
+
+- project: Evolution Algorithm  
+  duration: 2021；
+  #url: "https://link.springer.com/chapter/10.1007/978-3-030-89188-6_8"
+  description: <a href="https://link.springer.com/chapter/10.1007/978-3-030-89188-6_8">Guanhua Wang, Mingyu Guo. "Public Project with Minimum Expected Release Delay."  The 18th Pacific Rim International Conference on Artificial Intelligence (PRICAI) 2021 (Core B) </a>
+
+
+- project: Nerual Network  
+  duration: 2021；
+  #url: "https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/WIIAT21/9/c7642cc1-3b70-11ec-b613-166a08e17233/OUT/wiiat21-9.html"
+  description: <a href="https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/WIIAT21/9/c7642cc1-3b70-11ec-b613-166a08e17233/OUT/wiiat21-9.html">Guanhua Wang, Wuli Zuo, Mingyu Guo. "Redistribution in Public Project Problems via Neural Networks."  The 20th IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT), 2021 (Core B) </a>
+
+
+- project: Nerual Network  
+  duration: 2021；
+  #url: "https://link.springer.com/chapter/10.1007/978-3-030-89188-6_8"
+  description: <a href="https://link.springer.com/chapter/10.1007/978-3-030-89188-6_8">Guanhua Wang, Mingyu Guo. "Public Project with Minimum Expected Release Delay."  The 18th Pacific Rim International Conference on Artificial Intelligence (PRICAI) 2021 (Core B) </a>
+
+
+- project: Nerual Network and Evolution Algorithm  
+  duration: 2021；
+  #url: "https://link.springer.com/article/10.1007/s10458-021-09522-w"
+  description: <a href="https://link.springer.com/article/10.1007/s10458-021-09522-w">Mingyu Guo, Guanhua Wang, Hideaki Hata, M. Ali Babar. " Revenue-Maximizing Markets for Zero-Day Exploits."  In Autonomous Agents and Multi-Agent Systems 35, 36, 2021. (Core A) </a>
+
+
 - project: Nerual Network  
   duration: 2019；
   #url: "https://arxiv.org/pdf/1907.01755.pdf"
@@ -15,4 +40,3 @@
   duration: 2016；
   #url: "https://www.sciencedirect.com/science/article/abs/pii/S0305054816301435"
   description: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054816301435">Yan, P., Wang, G., Che, A. and Li, Y., . Hybrid discrete differential evolution algorithm for biobjective cyclic hoist scheduling with reentrance. Computers & Operations Research, 76, pp.155-166.</a>
-
