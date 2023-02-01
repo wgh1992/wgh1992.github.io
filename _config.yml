@@ -23,7 +23,7 @@ resume_contact_address:         "Computer Science, University of Adelaide"
 resume_header_contact_info:     "***"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I am a Phd student on computer science in University of Adelaide. I focus on GAN, MLP, evolution algorithm, game theory... </p>"
+resume_header_intro: "<p>I am Dr. Guanhua Wang who graduated from the University of Adelaide in July 2022 (with Dean’s Commendation for Doctoral Thesis Excellence). I focus on GAN, MLP, evolution algorithm, game theory... </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
